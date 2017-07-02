@@ -26,5 +26,31 @@ namespace HeadFirstExercise2
         {
             this.InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            string name = "Geoff";
+            int x = 3;
+            x = x * 17;
+            double d = Math.PI / 2;
+            myLabel.Text = "name is " + name
+                + "\nx is " + x
+                + "\nd is " + d;
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
